@@ -19,11 +19,20 @@ ul {
       float: left;
   }
   
-  /* Change the link color on hover */
+
   li a:hover {
     background-color: rgb(24, 129, 24);
     color: rgb(136, 30, 104);
   }
+
+
+  
+  li img {
+    padding: 10px 20px;
+    overflow: hidden;
+  }
+
+
   .image
 {
         position:absolute;
@@ -35,23 +44,22 @@ ul {
         width:50px;
         height: 50px;
         background-color: #333;
-        }
-
+}
 .name
-{
-    top: 100%;
+{   
+    animation-play-state: running;
+    top: 700%;
     left: 100%;
     width: 200px;
-    font-size: 500%;
+    font-size: 400%;
     text-align: left;
-    color: rgb(222, 229, 243);
+    color: rgb(82, 129, 221);
     
 }
+
         
     
         
-        
-    
 
 
-  
+
