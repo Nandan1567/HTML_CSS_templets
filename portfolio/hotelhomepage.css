@@ -773,3 +773,211 @@ header
     background-image: url(l.jpg);
 
 }
+#footar
+{
+    padding-top:209px;
+    padding-left:220px;
+    display: flex;
+    flex-direction: row;
+}
+#lastcol
+{
+    display: flex;
+    flex-direction: column;
+}
+#lastlogo
+{
+    padding-top: 10px;
+    background-color: #25df8f;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgrey;
+    font-style: normal;
+    font-family: normal;
+    border-radius: 5px;
+}
+#search1
+{
+    padding-top: 60px;
+    flex-direction: column;
+    margin-left: -30px;
+    color: #596172;
+}
+#searchlast
+{
+
+    width:400px;
+    height: 30px;
+    border-radius: 5px;
+     border: solid 1px #d9dde7;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+#trii
+{
+
+    background-color:#c1c8d7;
+    width:10px ;
+    height:8px ;
+    transform: rotate(180deg);
+    
+}
+#search2
+{
+    padding-top: 30px;
+    flex-direction: column;
+    margin-left: -30px;
+    color: #596172;
+}
+#searchlastbar
+{
+
+    width:400px;
+    height: 30px;
+    border-radius: 5px;
+     border: solid 1px #d9dde7;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+#lastrow1
+{
+    padding-top: 20px;
+    margin-left: -30px;
+}
+#lastrow
+{   display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color:#949fb7;
+}
+#teams
+{
+    
+}
+#privacy
+{
+    padding-left: 15px;
+}
+#sitemap
+{
+    padding-left: 15px;
+}
+#about
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+#aboutus
+{
+    color:#949fb7;
+    font-size: 12px;
+}
+#aboutus1
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#careers
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#press
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#help1
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#discover
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+#discover1
+{
+    color:#949fb7;
+    font-size: 12px;
+}
+#trust
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#travel
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#gift
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#businnes
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+
+#hosting
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+#hosting1
+{
+    color:#949fb7;
+    font-size: 12px;
+}
+#why
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#hopital
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#hosting2
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
+#community
+{
+    color:#596172;
+    font-size:14px ;
+    padding-top:15px;
+}
