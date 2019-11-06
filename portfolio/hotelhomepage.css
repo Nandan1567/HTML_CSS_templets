@@ -1,0 +1,775 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vw;
+    padding:50px;
+    background-color: #ffffff;
+    flex-direction: column;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left:50px ;
+}
+#headerleft
+{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    
+}
+#logo
+{
+
+    padding-top: 10px;
+    background-color: #25df8f;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgrey;
+    font-style: normal;
+    font-family: normal;
+    border-radius: 5px;
+    
+}
+#search
+{
+    padding-left: 50px;
+    flex-direction: row;
+}
+#searchbar
+{
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+    padding-left:10px ;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: #949fb7;
+    border: solid 1px #d9dde7;
+}
+#searchbar div
+{
+    width: 12px;
+    height: 12px;
+    padding-left: 480px;
+    margin-top:-10px;
+}
+#headerright
+{
+    width:50%;
+    display: flex;
+    flex-direction: row;
+    padding-left:250px;
+
+}
+#menu
+{
+    display: flex;
+    font-size: 14px;
+    color: #596172;
+    flex: 1;
+    padding-top: 10px;
+}
+#becomeahost
+{
+    padding-left:10px ;
+}
+#trip
+{
+    padding-left:10px ;
+}
+#messages
+{
+    padding-left:10px ;
+}
+#help
+{
+    padding-left: 10px;
+}
+#headerimg
+{
+    width:50px;
+    height: 50px;
+    padding-left: 10px;
+    margin-top: -10px;
+}
+#mainbody
+{
+    width: 100%;
+    display: flex;
+    padding-top:20px;
+    
+
+}
+#rightbody
+{
+    display:flex;
+    flex-direction: column;
+    padding-top:10px ;
+    padding-left:20px ;
+}
+#homeimg
+{
+    width:41px;
+    height: 53px;
+    padding:20px;
+    padding-top: 60px;
+    
+}
+#maintext
+{
+    font-size: 35px;
+    line-height: 1.39;
+    color: #2b313d;
+    padding-left:10px ;
+}
+#bodysearch
+{
+    display: flex;
+    flex-direction: row;
+
+}
+#bodysearchbar
+{
+    width:550px;
+    height: 40px;
+    font-size: 12px;
+    color: #949fb7;
+    border:solid 1px #d9dde7;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+#searchimage
+{
+    padding-left: 500px;
+    display: flex;
+    margin-top:-10px ;
+}
+#button
+{
+    display: flex;
+    flex-direction: row;
+    padding-top:10px;
+    flex: 1;
+
+}
+#button1
+{
+    padding-top: 10px;
+    width:120px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:  #25df8f;
+    text-align: center;
+    color:#ffffff
+
+
+}
+#button22
+{
+    padding-left:20px ;
+    display: flex;
+}
+#button2
+{
+    padding-top: 10px;
+    width:60px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:  #c1c8d7;
+    text-align: center;
+    color:#ffffff;
+}
+#button33
+{
+    padding-left:20px ;
+    display: flex;
+}
+#button3
+{
+    padding-top: 10px;
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:  #c1c8d7;
+    text-align: center;
+    color:#ffffff;
+}
+#button44
+{
+    padding-left:20px ;
+    display: flex;
+}
+#button4
+{
+    padding-top: 10px;
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:  #c1c8d7;
+    text-align: center;
+    color:#ffffff;
+
+}
+#image
+{
+    padding-left: 100px;
+}
+#rightimg
+{
+    padding-left:30px;
+    width:705px ;
+    height:550px;
+    border-radius: 1px;
+    background: url(right.jpg) no-repeat;
+    background-size:cover ;
+}
+
+
+#halfbody
+{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: column;
+
+}
+#pagenumber
+{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+
+}
+#cityname
+{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    
+    
+}
+#apartmentin
+{
+    color:#949fb7;
+    font-size: 24px;
+
+}
+#barcelona
+{
+    padding-left:10px;
+    font-size: 24px;
+}
+#spain
+{
+    padding-left:10px;
+    font-size: 24px;
+}
+#showall
+{
+    padding-left: 650px;
+    color:#596172;
+    font-size: 12px;
+    
+}
+#traiangle
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#trai
+{
+    background-color:#c1c8d7;
+    width:10px ;
+    height:8px ;
+    transform: rotate(180deg);
+}
+#room
+{
+    padding-left: 130px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#arooma
+{
+    display: flex;
+
+}
+#aroom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(roomc.jpg);
+
+}
+#roomtext
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#img1
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#txt1
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#roomtextb
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#img2
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#txt2
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#roomtextc
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#img3
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#txt3
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#roomtextd
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#img4
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#txt
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#broomb
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#broom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(roomb.jpg);
+
+}
+#croomc
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#croom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(roomd.jpg);
+
+}
+#droomd
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#droom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(rooma.jpg);
+
+}
+#pagenumberA
+{
+    display: flex;
+    padding-top: 10px;
+    flex-direction: row;
+
+}
+#cityname1
+{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    
+    
+}
+#apartmentin1
+{
+    color:#949fb7;
+    font-size: 24px;
+
+}
+#barcelona1
+{
+    padding-left:10px;
+    font-size: 24px;
+}
+#spain1
+{
+    padding-left:10px;
+    font-size: 24px;
+}
+#showall1
+{
+    padding-left: 580px;
+    color:#596172;
+    font-size: 12px;
+    
+}
+#traiangle1
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#trai1
+{
+    background-color:#c1c8d7;
+    width:10px ;
+    height:8px ;
+    transform: rotate(180deg);
+}
+#roomA
+{
+    padding-left: 130px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#eroome
+{
+    display: flex;
+
+}
+#eroom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(e.jpg);
+
+}
+#roomtexte
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#imge
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#etxt1
+{
+    color: #2b313d;
+    font-size: 15px;
+}
+#roomtextf
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#imgf
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#ftxt2
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#roomtextg
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#imgg
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#gtxt3
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#roomtexth
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#imgh
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#txth
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#froomf
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#froom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(f.jpg);
+
+}
+#groomg
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#groom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(g.jpg);
+
+}
+#hroomh
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#hroom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(h.jpg);
+
+}
+#pagenumberb
+{
+    display: flex;
+    padding-top: 10px;
+    flex-direction:row;
+
+
+}
+#cityname2
+{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    
+    
+}
+#apartmentin2
+{
+    color:#949fb7;
+    font-size: 24px;
+
+}
+#barcelona2
+{
+    padding-left:10px;
+    font-size: 24px;
+}
+#spain2
+{
+    padding-left:10px;
+    font-size: 24px;
+}
+#showall2
+{
+    padding-left: 650px;
+    color:#596172;
+    font-size: 12px;
+    
+}
+#traiangle2
+{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#trai2
+{
+    background-color:#c1c8d7;
+    width:10px ;
+    height:8px ;
+    transform: rotate(180deg);
+}
+#roomb
+{
+    padding-left: 130px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#iroom
+{
+    display: flex;
+
+}
+#iroom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(i.jpg);
+
+}
+#roomtexti
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#imgi
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#itxt1
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#roomtextj
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#imgj
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#jtxt2
+{
+    color: #2b313d;
+    font-size: 16px;
+}
+#roomtextk
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#imgk
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#ktxt3
+{
+    color: #2b313d;
+    font-size: 15px;
+}
+#roomtextl
+{
+    color:  #596172;
+    padding-top: 200px;
+}
+#imgl
+{
+    padding-left: 220px;
+    flex-direction: row;
+    margin-top: -20px;
+    font-size: 14px;
+}
+#txtl
+{
+    color: #2b313d;
+    font-size: 15px;
+}
+#jroomj
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#jroom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(j.jpg);
+
+}
+#kroomk
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#kroom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(k.jpg);
+
+}
+#lrooml
+{
+    display: flex;
+    padding-left: 30px;
+
+}
+#lroom
+{
+    width: 270px;
+    height: 190px;
+    background-image: url(l.jpg);
+
+}
