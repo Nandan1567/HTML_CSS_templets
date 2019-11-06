@@ -25,7 +25,7 @@ header
 
     padding-top: 10px;
     background-color: #25df8f;
-    width: 30px;
+    width: 40px;
     height: 30px;
     text-align: center;
     font-size: 20px;
@@ -65,7 +65,7 @@ header
     width:50%;
     display: flex;
     flex-direction: row;
-    padding-left:250px;
+    padding-left:150px;
 
 }
 #menu
@@ -85,7 +85,7 @@ header
     padding-left:10px ;
 }
 #messages
-{
+{ 
     padding-left:10px ;
 }
 #help
@@ -101,6 +101,7 @@ header
 }
 #mainbody
 {
+
     width: 100%;
     display: flex;
     padding-top:20px;
@@ -287,10 +288,12 @@ header
 }
 #trai
 {
-    background-color:#c1c8d7;
-    width:10px ;
-    height:8px ;
-    transform: rotate(180deg);
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+    border-top: 10px solid #596172;
 }
 #room
 {
@@ -464,10 +467,12 @@ header
 }
 #trai1
 {
-    background-color:#c1c8d7;
-    width:10px ;
-    height:8px ;
-    transform: rotate(180deg);
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    
+    border-top: 10px solid #596172;
 }
 #roomA
 {
@@ -642,10 +647,11 @@ header
 }
 #trai2
 {
-    background-color:#c1c8d7;
-    width:10px ;
-    height:8px ;
-    transform: rotate(180deg);
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #c1c8d7;
 }
 #roomb
 {
@@ -773,12 +779,31 @@ header
     background-image: url(l.jpg);
 
 }
+#footar1
+{
+    padding-top:209 ;
+    scroll-padding-left:120px;
+}
+#f
+{
+    padding-top:209 ;
+    padding-left:120px;
+}
+#f1
+{   
+    width: 1200px;
+    height: 400px;
+    border: solid 1px #d9dde7;
+    background-color: #ffffff;
+}
+
 #footar
 {
-    padding-top:209px;
-    padding-left:220px;
+    padding-top:80px;
+    padding-left:140px;
     display: flex;
     flex-direction: row;
+
 }
 #lastcol
 {
@@ -789,7 +814,7 @@ header
 {
     padding-top: 10px;
     background-color: #25df8f;
-    width: 30px;
+    width: 40px;
     height: 30px;
     text-align: center;
     font-size: 20px;
@@ -818,15 +843,7 @@ header
     padding-left: 20px;
     
 }
-#trii
-{
 
-    background-color:#c1c8d7;
-    width:10px ;
-    height:8px ;
-    transform: rotate(180deg);
-    
-}
 #search2
 {
     padding-top: 30px;
@@ -980,4 +997,30 @@ header
     color:#596172;
     font-size:14px ;
     padding-top:15px;
+}
+#traiangle22
+{
+    margin-top:-10px;
+    padding-left: 80px;
+}
+#trai1
+{
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #c1c8d7;
+}
+#trilast
+{
+    margin-top:-10px;
+    padding-left: 180px;
+}
+#trilast1
+{
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #c1c8d7;
 }
